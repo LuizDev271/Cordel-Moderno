@@ -47,7 +47,7 @@ section{
 }
 
 section > p{
-    padding-bottom: 2em;
+    padding: 5px 20px;
 }
 
 section.normal{
@@ -68,9 +68,13 @@ section.imagem{
 
 section.imagem > p{
     display: inline-block;
-    padding: 5px;
-    background-color: #00000065;
+    padding: 5px 20px;
+    
+    background-color: #0000008a;
     text-shadow: 1px 1px 1px #ffff009c;
+
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px #000000b4;
 }
 
 section#img01{
